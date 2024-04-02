@@ -1,0 +1,50 @@
+adam gitmiş binary tree oluşturma sormuş, çiz, preorder postorder bul, avl tree mi değil mi açıkla demiş (toplam 25 puan bu sayfa)
+ne kod ne bi şey? çok off-guard yakalandım baya sözeldi olm sınav
+
+sonra işte graph çiz demiş, ondan sonracığıma adjacency list'ini yap demiş G vertexi için. onddan sonra işte breadth-first traversal, depth-first traversal sormuştu sanırım. (toplam 25 puan bu sayfa)
+
+sonra gitmiş bi tane küçücük array vermiş 4 2 8 6 9 mu ne işte demiş bunu bubble sortla yapın ama her adımını gösterin (kod yazmıcaksın, her adımını da göstermemiz gerekiyor neyle neyi kıyaslıyoruz falan işte ondan) falan bende yaptım toplamda 10 pass ile falan | sonracığıma bide size ı 8 olan bi tane array vermiş bunu da iterative merge sort yaparak sortlamamızı istemiş her adımını da göstermemiz gerekiyor neyle neyi kıyaslıyoruz falan işte ondan (ben son anda hatırladım ve yaptım ama inşallah yazım iyidir de hoca anlar yoksa da anlatırım aslında, çünkü kod kısmına bile çok çalışmamıştım sadece yazmıştım da sınavda vahiy geldi yaptım valla) falan işte (toplam 25 puan bu sayfa)
+
+son sayfada da çok kolay linear search bi şey sormuş ama soruda "consecutive" demiş ben ona hiç dikkat etmemiştim direk şöyle yaptım mal gibi (6 hoursdan fazla çalışırsa rating++)
+
+int rating = 0;
+for(int i=0;i<N;i++){
+   if(workload[i] > 6){
+      rating++;
+   }
+}
+
+halbuki ardaşık demiş, bu kdar kolay değil tabii çözümü. (çözümü kolay da, bu değil yani çözüm :D) gitti 20 puanlık beleş soru ya ):
+
+b şıkkında da bunun complexitysini sormuş, linear search zaten. O(n) (toplam 25 puan bu sayfa)
+
+Sınav Özeti:
+
+1. sayfa (25 points)
+Tree
+
+a)Draw the binary tree [10 points]
+b)Write the preorder of the tree. [5 points]
+c)Write the postorder of the tree. [5 points]
+d)Is this tree an AVL tree? Explain. [5 points]
+
+2. sayfa (25 points)
+Graph
+-Vertices,edges vermiş
+
+a)Draw the graph. [10 points]
+b)Write the Adjacency list for vertex G.[5 points]
+c)Write the Breadth-first traversal of the graph. [5 points]
+d)Write the Depth-first traversal of the graph. [5 points]
+
+3. sayfa (25 points)
+-No code, apply Sort algorithm and show every pass and comperison for the given array, and of course determine the result.
+
+a)Apply Bubble Sort algorithm and show every pass and comperison for the given array, and of course determine the result. [15 points]
+b)Apply iterative Merge Sort algorithm and show every pass and comperison for the given array, and of course determine the result. [10 points]
+
+4. sayfa (25 points)
+-Çok basit bir soru, linear search ama dikkatli okusaydım yapardım (soruda "consecutive" demiş ben ona hiç dikkat etmemiştim direk şöyle yaptım mal gibi) ve bunun complexitysi nedir
+
+a)Write a C++ code to determine worker's rating for N days. (rating --> workload[i] > 6 , but for consecutive days) [20 points] -çok kolay soruydu be boşa gitti-
+b) Determine the time complexity. Explain.
